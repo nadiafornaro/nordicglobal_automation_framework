@@ -1,0 +1,1 @@
+# nordicglobal_automation_framework
