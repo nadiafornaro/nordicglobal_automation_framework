@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18073" started-at="2022-01-17T20:55:29 BRT" finished-at="2022-01-17T20:55:47 BRT">
+    <groups>
+      <group name="Regression">
+        <method signature="Validate_Elements_in_HomePage.Validate_Elements_in_HomePage_test()[pri:0, instance:tests.NordicGlobal.Validate_Elements_in_HomePage@42d8062c]" name="Validate_Elements_in_HomePage_test" class="tests.NordicGlobal.Validate_Elements_in_HomePage"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="18073" started-at="2022-01-17T20:55:29 BRT" finished-at="2022-01-17T20:55:47 BRT">
+      <class name="tests.NordicGlobal.Validate_Elements_in_HomePage">
+        <test-method status="PASS" signature="preSetup(java.lang.String)[pri:0, instance:tests.NordicGlobal.Validate_Elements_in_HomePage@42d8062c]" name="preSetup" is-config="true" duration-ms="126" started-at="2022-01-17T20:55:29 BRT" finished-at="2022-01-17T20:55:29 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.NordicGlobal.Validate_Elements_in_HomePage@42d8062c]" name="setup" is-config="true" duration-ms="9717" started-at="2022-01-17T20:55:29 BRT" finished-at="2022-01-17T20:55:38 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www-nordicglobal-com.sandbox.hs-sites.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Validate_Elements_in_HomePage_test()[pri:0, instance:tests.NordicGlobal.Validate_Elements_in_HomePage@42d8062c]" name="Validate_Elements_in_HomePage_test" duration-ms="6835" started-at="2022-01-17T20:55:38 BRT" finished-at="2022-01-17T20:55:45 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Elements_in_HomePage_test -->
+        <test-method status="PASS" signature="postTestAction(org.testng.ITestResult)[pri:0, instance:tests.NordicGlobal.Validate_Elements_in_HomePage@42d8062c]" name="postTestAction" is-config="true" duration-ms="649" started-at="2022-01-17T20:55:45 BRT" finished-at="2022-01-17T20:55:46 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_Elements_in_HomePage_test status=SUCCESS method=Validate_Elements_in_HomePage.Validate_Elements_in_HomePage_test()[pri:0, instance:tests.NordicGlobal.Validate_Elements_in_HomePage@42d8062c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestAction -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.NordicGlobal.Validate_Elements_in_HomePage@42d8062c]" name="tearDown" is-config="true" duration-ms="708" started-at="2022-01-17T20:55:46 BRT" finished-at="2022-01-17T20:55:47 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="postTearDown()[pri:0, instance:tests.NordicGlobal.Validate_Elements_in_HomePage@42d8062c]" name="postTearDown" is-config="true" duration-ms="38" started-at="2022-01-17T20:55:47 BRT" finished-at="2022-01-17T20:55:47 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTearDown -->
+      </class> <!-- tests.NordicGlobal.Validate_Elements_in_HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

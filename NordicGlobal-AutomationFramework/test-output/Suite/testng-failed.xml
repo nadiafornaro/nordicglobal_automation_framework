@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="URL" value="https://www-nordicglobal-com.sandbox.hs-sites.com/"/>
+    <parameter name="browserType" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.NordicGlobal.Validate_Elements_in_HomePage">
+        <methods>
+          <include name="Validate_Elements_in_HomePage_test"/>
+          <include name="tearDown"/>
+          <include name="postTestAction"/>
+          <include name="preSetup"/>
+          <include name="postTearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.NordicGlobal.Validate_Elements_in_HomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
